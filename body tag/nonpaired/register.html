@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>register page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+            background-color: bisque;
+            
+        }
+        form
+        {
+            background-color: darkcyan;
+            width: 40%;
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Register Form</h1>
+    <hr width="20%">
+    <br>
+
+    <form method="get" name="frm" action="welcome.html">
+    <label>Email *&nbsp;</label>
+    <input type="text" name="email" placeholder="Email *" >
+    <br><br>
+    
+    <label>Password *&nbsp;</label>
+    <input type="text" name="password" placeholder="Password *">
+    <br><br>
+    
+    <label>Confirm Password *&nbsp;</label>
+    <input type="text" name="re pass" placeholder="Confirm password">
+    <br><br>
+    
+    <label>Upload Photo *&nbsp;</label>
+    <input type="file" name="photo" multiple required>
+    <br><br>
+
+    <label>Gender *&nbsp;</label>
+    Male<input type="radio" name="gender" value="male">
+    Female<input type="radio" name="gender" value="female">
+    <br><br>
+
+    <lable>Availability for batch *&nbsp;</lable>
+    Morning<input type="radio" name="batch" value="morning">
+    Afternoon<input type="radio" name="batch" value="afternoon">
+    Evening<input type="radio" name="batch" value="evening">
+    <br><br>
+
+    <label>Select language *&nbsp;</label>
+    php<input type="checkbox" name="lang" value="php">
+    java<input type="checkbox" name="lang" value="java">
+    python<input type="checkbox" name="lang" value="pytho">
+    <br><br>
+    
+    <label>Phone number *&nbsp;</label>
+    <input type="text" name="phn" placeholder="phone number">
+    <br><br>
+
+    <label>Address *&nbsp;</label>
+    <textarea name="address" placeholder="Enter Address" rows="4" cols="25"></textarea>
+    <br><br>
+
+    <label>Select State</label>
+    <select name="state">
+    <option value="">-select state-</option>
+    <option value="gujrat">Gujarat</option>
+    <option value="maharastra">Maharashtra</option>
+    <option value="Andhra Pradesh">Andhra Pradesh</option>
+    <option value="Assam ">Assam </option>
+    <option value="Bihar">Bihar</option>
+    <option value="Haryana">Haryana</option>
+    </select>
+    <br><br>
+
+    <label>Select City</label>
+    <select name="city">
+        <option value="">Select city</option>
+        <option value="rajkot">Rajkot</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="Visakhapatnam">Visakhapatnam</option>
+        <option value="Guwahati">Guwahati</option>
+        <option value="Patna">Patna</option>
+        <option value="Faridabad">Faridabad</option>
+        </select>
+        <br><br>
+
+
+    <label>Select Multiple Location</label>
+    <select name="location" multiple>
+        
+        <optgroup label="rajkot" >
+            <option value="ring road">150 ring road</option>
+            <option value="Kotecha chowk">Kotecha chowk</option>
+        </optgroup>
+        <optgroup label="mumbai">
+            <option value="Ramdas Nayak Road">Ramdas Nayak Road</option>
+            <option value="Pandita Ramabai Marg">Pandita Ramabai Marg</option>
+        </optgroup>
+    </select>
+    <br><br>
+
+    <input type="reset" name="reset" value="reset" >
+    <br><br>
+
+    <input type="submit" name="login" value="submit">
+    <br><br>
+
+    
+    Already have an account? &nbsp; &nbsp;<a href="input.html">Login Here</a>
+</form>
+</center>
+</body>
+</html>
