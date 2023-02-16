@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pseudo Class Selector</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+            margin: 0%;
+            padding: 0%;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+        .navbar
+        {
+            width: 100%;
+            height: 100px;
+            background-color:black;
+            
+        }
+        .logo
+        {
+            width: 30%;
+            height: auto;
+            color: white;
+            
+        }
+        .logo h2
+        {
+            float: left;
+            margin-left: 10px;
+            padding: 4px;
+            font-size: 28px;
+        }
+        .navbar_link
+        {
+            width: 70%;
+            height: auto;
+            margin-left: 10%;
+            margin-top: 16px;
+            float: left;
+            
+        }
+        .navbar_link ul li
+        {
+            display: inline;
+            padding: 16px;
+        }
+        .navbar a
+        {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        .navbar a:active
+        {
+          
+        }
+        .navbar a:link
+        {
+
+        }
+        .navbar a:visited
+        {
+            
+        }
+        .navbar a:hover
+        {
+        
+            color: yellow;
+            text-decoration: underline;
+        }
+        
+
+
+    </style>
+
+</head>
+<body>
+    <div class="navbar">
+    <div class="logo"><h2>Amazon</h2></div>
+    <div class="navbar_link">
+        <ul>
+            <li ><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Protfolio</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>
