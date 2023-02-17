@@ -1,0 +1,82 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-image: url(images/login-bg.png);
+}
+.navbar
+{
+    background-color: #ecf5fb;
+    width: 100%;
+    height: auto;
+}
+.logo
+{
+    margin-left: 33%;
+    padding: 7px;
+        
+}
+.login h1
+{
+    color: #4c92be;
+    font-size: 24px;
+}
+.login
+{
+   
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 4%;
+    border: 2px solid #4c92be;
+    border-radius: 10px;
+    background-color: #edf5fb;
+   
+}
+.login h3
+{
+   margin-top: -15px;
+   font-size: 24px;
+   color: #3d3d3d;
+}
+.form
+{
+    margin-left: 15%;
+  
+    margin-top: 4%;
+    padding: 3%;
+    margin-bottom: 4%;
+}
+input[type="text"],input[type="password"]
+{
+    
+    margin: auto;
+    padding: 3%;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    
+}
+input[type="submit"]
+{
+    font-size: 15px;
+    width: 60%;
+    padding: 3%;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(to right,#4a8bbb,#313996);
+    border: none;
+    
+}
+.form label
+{
+    font-size: 20px;
+    color: #3d3d3d;
+}
+
+.form a
+{
+    color: #4c92cc;
+    font-size: 20px;
+}
