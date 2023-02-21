@@ -1,0 +1,25 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.navbar-link a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar-link li
+{
+    display: inline;
+    padding: 15px;
+    
+}
+
+.dropdown:hover .dropdown-menu 
+{
+    display: block;
+}
