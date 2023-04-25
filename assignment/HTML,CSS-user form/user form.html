@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>User detail form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+    #name
+    {
+        width: 50%;
+        padding: 7px;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 15px;
+        margin-left: 100px;
+    }
+    #email
+    {
+        width: 50%;
+        padding: 7px;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 15px;
+        margin-left: 101px;
+    }
+    #phone
+    {
+        width: 50%;
+        padding: 7px;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 15px;
+        margin-left: 101px;
+    }
+    #address
+    {
+        width: 51%;
+        height: 80px;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 15px;
+        margin-left: 90px;
+    }
+    #postcode
+    {
+        width: 50%;
+        padding: 7px;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 15px;
+        margin-left: 78px;
+    }
+    #country
+    {
+        width: 50%;
+        padding: 7px;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 15px;
+        margin-left: 95px;
+    }
+    .cardtype
+    {
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    #cardnumber
+    {
+        width: 50%;
+        padding: 7px;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 15px;
+        margin-left: 56px;
+    }
+    #securitycode
+    {
+        width: 50%;
+        padding: 7px;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 15px;
+        margin-left: 53px;
+    }
+    #nameoncard
+    {
+        width: 50%;
+        padding: 7px;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 15px;
+        margin-left: 50px;
+    
+    }
+        
+    #buyit
+    {
+        width: 35%; padding:6px; border-radius:30px; margin-left: 35%; background-color: #384313; color: white;
+        border: 0px; font-size: 25px; letter-spacing: 3px;
+    }
+    </style>
+</head>
+<body>
+        <form method="post" action="" style="border-radius: 10px; width: 70%; background-color: #9cbc2c; padding: 1px; margin-left: 20%; margin-top: 2%;">
+
+            <!--user details-->
+
+            <h3 style="margin-left: 3%;">Step 1: Your details</h3>
+            <div style="padding: 1%; margin-left: 3%; margin-right: 3%;margin-top: 3px;
+            background-color: #b9cf6a; border-radius: 10px; border-color: #d3e1a3;">
+            <label style="font-size: 20px;">Name</label>
+            <input type="text" id="name" name="name" placeholder="First and last name">
+            </div>
+            
+            <div style="padding: 1%; margin-left: 3%; margin-right: 3%; margin-top: 3px;
+            background-color: #b9cf6a; border-radius: 10px; border-color: #d3e1a3;">
+            <label style="font-size: 20px;">Email</label>
+            <input type="text" id="email" name="email" placeholder="example@domain.com ">
+            </div>
+           
+
+            <div style="padding: 1%; margin-left: 3%; margin-right: 3%; margin-top: 3px;
+            background-color: #b9cf6a; border-radius: 10px; border-color: #d3e1a3;">
+            <label style="font-size: 20px;">Phone</label>
+            <input type="text" id="phone" name="phn" placeholder="Eg. +447500000000">
+            </div>
+
+            <!--Delivery address-->
+
+            <h3 style="margin-left: 3%;">Step 2: Delivery address</h3>
+
+            <div style="padding: 1%; margin-left: 3%; margin-right: 3%; margin-top: 3px;
+            background-color: #b9cf6a; border-radius: 10px; border-color: #d3e1a3;">
+            <label style="font-size: 20px;"> Address</label>
+            <textarea name="address" id="address"></textarea>
+            </div>
+
+            <div style="padding: 1%; margin-left: 3%; margin-right: 3%; margin-top: 3px;
+            background-color: #b9cf6a; border-radius: 10px; border-color: #d3e1a3;">
+                <label style="font-size: 20px;">Post code</label>
+                <input type="text" id="postcode" name="postcode">
+            </div>
+
+            <div style="padding: 1%; margin-left: 3%; margin-right: 3%; margin-top: 3px;
+            background-color: #b9cf6a; border-radius: 10px; border-color: #d3e1a3;">
+                <label style="font-size: 20px;">country</label>
+                <input type="text"  id="country" name="country">
+            </div>
+
+            <!--card details-->
+
+            <h3 style="margin-left: 3%;">Step 3: Card details</h3>
+            <div style="padding: 1%; margin-left: 3%; margin-right: 3%; margin-top: 3px;
+            background-color: #b9cf6a; border-radius: 10px; border-color: #d3e1a3;">
+                <label style="font-size: 20px;">Card type</label>
+                <br>
+                <input type="radio" class="cardtype" name="cardtype" value="visa">
+                <label><i class="fa fa-cc-visa" ></i>&ensp;VISA</label>
+                
+                <input type="radio" class="cardtype" name="cardtype" value="visa" >
+                <label><i class="fa fa-cc-amex"></i>&ensp;AmEx</label>
+                
+                <input type="radio" class="cardtype" name="cardtype" value="visa">
+                <label><i class="fa fa-cc-mastercard"></i>&ensp;Mastercard</label>
+            </div>
+
+            <div style="padding: 1%; margin-left: 3%; margin-right: 3%; margin-top: 3px;
+            background-color: #b9cf6a; border-radius: 10px; border-color: #d3e1a3;">
+                <label style="font-size: 20px;">Card number</label>
+                <input type="text" id="cardnumber" name="cardnumber">
+            </div>
+
+            <div style="padding: 1%; margin-left: 3%; margin-right: 3%; margin-top: 3px;
+            background-color: #b9cf6a; border-radius: 10px; border-color: #d3e1a3;">
+                <label style="font-size: 20px;">Security code</label>
+                <input type="text" id="securitycode" name="securitycode">
+            </div>
+
+            <div style="padding: 1%; margin-left: 3%;  margin-right: 3%; margin-top: 3px; background-color: #b9cf6a; border-radius: 10px; border-color: #d3e1a3;">
+                <label style="font-size: 20px;">Name on card</label>
+                <input type="text" id="nameoncard" name="nameoncard" placeholder="Exact name as on the card">
+            </div>
+            <br>
+
+            <input type="submit" id="buyit"    name="buy it" value="BUY IT!">
+            <br><br>
+        </form>
+
+
+
+        
+    
+</body>
+</html>

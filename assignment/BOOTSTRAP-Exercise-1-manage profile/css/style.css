@@ -1,0 +1,64 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #622778;
+}
+.profilephoto
+{
+    width: 90%;
+     border: 1px solid black;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+}
+
+.profile img
+{
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px;
+    margin-left: 15%;
+    margin-top: 50%;
+}
+h5
+{
+    margin-left: 60%;
+}
+p
+{
+    margin-left: 20%;
+    color:#b1b6b4;
+}
+.Settings
+{
+    margin-left: 5%;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2 ;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+.Settings h6
+{
+    margin-top: 8%;
+    font-size: 23px;
+    
+}
+.Settings button
+{
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 30%;
+    background-color: #642679;
+    color: #eecff5;
+    margin-bottom: 8%;
+}
+.experience
+{
+    margin-left: 5%;
+    margin-top: 9%;
+}
